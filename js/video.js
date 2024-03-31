@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	video.autoplay = false;
 	video.loop = false;
-	volumeDisplay.innerText = `${Math.round(video.volume * 100)}%`;
 
 	// Play video
 	playButton.addEventListener('click', function () {
